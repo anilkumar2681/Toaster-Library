@@ -3,7 +3,7 @@ package com.ultimatecrazy.toasterlibrary
 import android.content.Context
 import android.widget.Toast
 
-class ToasterMessage {
+class ToasterMessage constructor(){
 
     fun display(context: Context,message:String){
 
